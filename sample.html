@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Modal Example</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .modal-content {
+            padding: 20px;
+        }
+        .contact .header {
+            margin-bottom: 20px;
+        }
+        .contact .details span {
+            display: block;
+            margin-bottom: 10px;
+        }
+        .contact .address {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <!-- Trigger the modal with a button -->
+        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">CONTACT US</button>
+
+        <!-- Modal -->
+        <div id="myModal" class="modal fade" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">You May Contact Us</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p><b>Customer Care Numbers :</b> 14646 (Language: Hindi and English)</p>
+                        <p>For Railway tickets booked through IRCTC</p>
+                        <div class="details">
+                            <p>General Information</p>
+                            <p>I-tickets/e-tickets: <a href="mailto:care@irctc.co.in">care@irctc.co.in</a></p>
+                            <p>For Cancellation E-tickets: <a href="mailto:etickets@irctc.co.in">etickets@irctc.co.in</a></p>
+                            <p>For IRCTC iMudra Prepaid Wallet & Card: <a href="mailto:imudracare@irctc.co.in">imudracare@irctc.co.in</a></p>
+                        </div>
+                        <p>For IRCTC SBI Card users who do not receive the card within 01 month from the date of application kindly call on the Railway SBI Card Helpline nos. at 0124-39021212 or 18001801295 (if calling from BSNL/MTNL line) or send email to <a href="mailto:customercare@sbicard.com">customercare@sbicard.com</a>. For other queries on your IRCTC SBI card account, kindly email at <a href="mailto:loyaltyprogram@irctc.co.in">loyaltyprogram@irctc.co.in</a></p>
+                        <div class="address">
+                            <p><b>Registered Office / Corporate Office</b></p>
+                            <p>Indian Railway Catering and Tourism Corporation Ltd.,</p>
+                            <p>B-148, 11th Floor, Statesman House,</p>
+                            <p>Barakhamba Road, New Delhi 110001</p>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery, Popper.js, and Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
